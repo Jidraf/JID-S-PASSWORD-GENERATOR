@@ -22,7 +22,7 @@
       margin-bottom: 40px;
       text-align: center;
       font-size: 20px;
-      color: aqua;
+      color: #000;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     input{
@@ -37,4 +37,4 @@
     input::placeholder{
       font-size: 15px;
     }
-    
+

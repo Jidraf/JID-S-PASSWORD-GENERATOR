@@ -1,18 +1,12 @@
-const axios = require("axios");
-
 const options = {
-  method: 'GET',
-  url: 'https://password-generator1.p.rapidapi.com/api/generePassWd',
-  params: {len: '<10>'},
-  headers: {
-    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-    'X-RapidAPI-Host': 'password-generator1.p.rapidapi.com'
-  }
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '4083b14d06mshbb751c1f7884d46p1122b2jsn8e766c5d89d3',
+		'X-RapidAPI-Host': 'password-generator1.p.rapidapi.com'
+	}
 };
 
-axios.request(options).then(function (response) {
-	console.log(response.data);
-}).catch(function (error) {
-	console.error(error);
-});
-
+fetch('https://password-generator1.p.rapidapi.com/api/generePassWd?len=10', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
