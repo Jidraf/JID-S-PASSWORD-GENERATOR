@@ -25,4 +25,12 @@
       color: aqua;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    input{
+      padding: 20px;
+      user-select: none;
+      height: 50px;
+      width:390px;
+      border-radius: 6px;
+      border: 2px solid rgb (13,152,245);
+    }
     
