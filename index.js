@@ -15,7 +15,7 @@ fetch('https://password-generator1.p.rapidapi.com/api/generePassWd?len=10', opti
 
 var password = document.getElementById("password");
 
-function genPassword() {
+function genpassword() {
         var chars = 
 "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         var passwordLength = 10;
@@ -27,5 +27,11 @@ function genPassword() {
         }        
         document.getElementById("password").value = password;
 }
-    
+    function gencopy() {
+      var copyText = document.getElementById("password");
+      copyText.select();
+      copyText.setSelectionRange(0, 999);
+      document.execCommand("copy");
+      
+    }
  
