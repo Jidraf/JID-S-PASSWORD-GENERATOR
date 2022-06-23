@@ -13,6 +13,6 @@ fetch('https://password-generator1.p.rapidapi.com/api/generePassWd?len=10', opti
 
   console.log("okay")
 
-
+var password = document.getElementById("password");
 
  
