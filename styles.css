@@ -46,7 +46,7 @@
       text-align: center;
       background-color: blue;
       display: flex;
-      color: rgb(255,255,255);
+      color: whitesmoke;
       justify-content: center;
       align-items: center;
       cursor: pointer;
@@ -56,9 +56,10 @@
       margin-left:85px;
     }
 #button:hover{
-  color: black;
-  background-color: white;
+  color: #000;
+  background-color: #fff;
 }
+
 
 
     

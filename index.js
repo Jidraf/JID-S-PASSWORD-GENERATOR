@@ -10,3 +10,9 @@ fetch('https://password-generator1.p.rapidapi.com/api/generePassWd?len=10', opti
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+
+  console.log("okay")
+
+
+
+ 
