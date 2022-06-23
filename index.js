@@ -26,7 +26,7 @@ function genpassword() {
           password += chars.substring(randomNumber, randomNumber +1);
         }        
         document.getElementById("password").value = password;
-        alert("YOUR PASSWORD IS GENERATED!")
+        
 }
     function gencopy() {
       var copyText = document.getElementById("password");
