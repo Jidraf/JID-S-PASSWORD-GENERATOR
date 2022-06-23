@@ -33,6 +33,6 @@ function genpassword() {
       copyText.select();
       copyText.setSelectionRange(0, 999);
       document.execCommand("copy");
-      
+      alert("THANK YOU FOR USING JID'S PASSWORD GENERATOR.YOUR PASSWORD HAS BEEN COPIED")
     }
  
