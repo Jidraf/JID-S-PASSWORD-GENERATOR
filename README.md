@@ -7,7 +7,7 @@ ill save you the trouble of having to think about a strong password yourself.
 
 2. SOLUTION STATEMENT
 
-To avoid this as a software developer, I’ve decided to create a password generator website that can help society protect the security of their personal and professional email accounts, social network accounts, WiFi encryption, banking and financial and saving accounts. A passphrase generator will save you the trouble of having to think about a strong password yoursel
+To avoid this as a software developer, I’ve decided to create a password generator website that can help society protect the security of their personal and professional email accounts, social network accounts, WiFi encryption, banking and financial and saving accounts. A passphrase generator will save you the trouble of having to think about a strong password yourself
 
 3. DESIGN ARCHITECTURE :
 https://www.figma.com/file/YogQO8UPbTdXuVf0tOJquy/Untitled
