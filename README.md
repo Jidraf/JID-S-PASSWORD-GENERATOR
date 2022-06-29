@@ -20,3 +20,6 @@ https://rapidapi.com/jsavajols/api/password-generator1/
 
 *POINT OF NOTE* :  
 The api I used has a specification of the length of the password were I selected 10 that is why my password generator doesn't have an option to change length of the password (It's constant to 10 characters).
+
+6. Live link :
+https://jidraf.github.io/JID-S-PASSWORD-GENERATOR/
